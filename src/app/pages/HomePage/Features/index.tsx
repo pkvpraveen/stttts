@@ -6,7 +6,7 @@ import { SubTitle } from '../components/SubTitle';
 import { P } from '../components/P';
 import { A } from 'app/components/A';
 import { GithubRepoForm } from './GithubRepoForm';
-import { ThemeSwitch } from './ThemeSwitch';
+import { ThemeSwitch } from '../../../components/ThemeSwitch';
 import { LanguageSwitch } from './LanguageSwitch';
 import { ReactComponent as StateIcon } from './assets/state.svg';
 import { ReactComponent as CSSIcon } from './assets/css.svg';

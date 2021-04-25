@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 
-import { ThemeSwitch } from '..';
+import { ThemeSwitch } from '../index';
 import { Provider } from 'react-redux';
 import { configureAppStore } from 'store/configureStore';
 import { Store } from '@reduxjs/toolkit';

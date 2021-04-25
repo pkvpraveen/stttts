@@ -4,10 +4,13 @@ import { Logo } from './Logo';
 import { StyleConstants } from 'styles/StyleConstants';
 import { Nav } from './Nav';
 import { PageWrapper } from '../PageWrapper';
+import { useSelector } from 'react-redux';
+import { selectThemeDarkOrLight } from '../../../styles/theme/slice/selectors';
 
 export function NavBar() {
+  const theme = useSelector(selectThemeDarkOrLight);
   return (
-    <Wrapper>
+    <Wrapper className={theme === 'dark' ? 'bp3-dark' : ''}>
       <PageWrapper>
         <Logo />
         <Nav />
